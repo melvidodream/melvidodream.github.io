@@ -1,11 +1,19 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Title of the document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Audio Recorder with Pitch Control</title>
+  <link rel="stylesheet" href="style.css"> <!-- Link to external CSS file -->
 </head>
-
 <body>
-porcodioooooooo......
-</body>
+  <div>
+    <button id="start-record">Start</button>
+    <button id="stop-record" disabled>Stop</button>
+  </div>
 
+  <input type="range" id="pitch" min="0.5" max="2" step="0.01" value="1">
+
+  <script src="script.js"></script> <!-- Link to external JavaScript file -->
+</body>
 </html>
